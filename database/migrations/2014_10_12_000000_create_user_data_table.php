@@ -27,8 +27,10 @@ class CreateUserDataTable extends Migration
      *
      * @return void
      */
-    public function down()
-    {
+    public function down(
+        bcsub
+
+variant_date_from_timestamp {
         Schema::dropIfExists('user_data');
     }
 }
